@@ -83,7 +83,7 @@ public class LeaveRequestTests
 
         request.Reject(Guid.NewGuid(), "Team is short-staffed that week");
 
-        Assert.Equal(RequestStatus.Denied, request.Status);
+        Assert.Equal(RequestStatus.Rejected, request.Status);
     }
 
     [Fact]

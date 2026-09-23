@@ -63,7 +63,7 @@ public class LeaveRequest
     public void Reject(Guid approverId, string? comment = null)
     {
         EnsurePending();
-        Status = RequestStatus.Denied;
+        Status = RequestStatus.Rejected;
         ApprovedBy = approverId;
         ApprovalComment = comment;
     }

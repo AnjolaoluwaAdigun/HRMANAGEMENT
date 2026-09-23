@@ -2,8 +2,8 @@ namespace HR.Domain.Enums;
 
 public enum RequestStatus
 {
-    Approved,
-    Denied,
     Pending,
+    Approved,
+    Rejected,
     Cancelled
 }

@@ -8,5 +8,5 @@ public record CreateEmployeeDto(
     string Department,
     DateOnly DateJoined,
     Role Role,
-    string PasswordHash,
+    string Password,
     Guid? ManagerId);
