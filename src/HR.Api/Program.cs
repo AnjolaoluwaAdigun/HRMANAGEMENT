@@ -32,6 +32,9 @@ builder.Services.AddScoped<AllocateYearlyBalancesUseCase>();
 builder.Services.AddScoped<CreateLeaveTypeUseCase>();
 builder.Services.AddScoped<GetLeaveTypesUseCase>();
 builder.Services.AddScoped<GetLeaveRequestHistoryUseCase>();
+builder.Services.AddScoped<UpdateEmployeeUseCase>();
+builder.Services.AddScoped<DeactivateEmployeeUseCase>();
+builder.Services.AddScoped<GetCompanyLeaveStatsUseCase>();
 // --- Controllers ---
 builder.Services.AddControllers();
 
